@@ -1,7 +1,7 @@
 // function to update rate on changing the html input element
 function updateRate() {
     var rateVal = document.getElementById('rate').value;
-    document.getElementById("rate_val").innerText = rateVal;
+    document.getElementById("rate_val").innerText = `${rateVal}%`;
 }
 
 // function to compute interest
